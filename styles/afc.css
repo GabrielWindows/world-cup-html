@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+    font-size: 50px;
+    font-family: 'Lora', serif;
+}
+
+body {
+    background-color: khaki;
+}
+
+.coluna{
+    float: left;
+    width: 16%;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+p {
+    color: blue;
+    font-size: 30px;
+}

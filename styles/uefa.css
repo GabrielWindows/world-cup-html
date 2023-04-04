@@ -1,0 +1,26 @@
+body {
+    background-color: #2e5f9a;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+    font-size: 50px;
+    font-family: 'Exo', sans-serif;
+}
+
+.coluna{
+    float: left;
+    width: 14.28%;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+p {
+    color: #ffffff;
+    font-size: 30px;
+}

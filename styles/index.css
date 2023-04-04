@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+    font-size: 50px;
+    font-family: 'Secular One', sans-serif;
+}
+
+body {
+    background-color: #9e0c36;
+}
+
+p{
+    color: white;
+    font-size: 30px;
+}

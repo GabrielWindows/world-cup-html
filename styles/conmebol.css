@@ -1,0 +1,27 @@
+
+body {
+    background-color: #87CEFA;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+    font-size: 50px;
+}
+
+.coluna{
+    float: left;
+    width: 25%;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+p {
+    color: white;
+    font-size: 35px;
+}
